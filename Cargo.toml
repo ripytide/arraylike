@@ -9,11 +9,11 @@ const expressions.
 """
 documentation = "https://docs.rs/arraylike"
 readme = "README.md"
-homepage = "https://github.com/ripytide/nodit"
-repository = "https://github.com/ripytide/nodit"
+homepage = "https://github.com/ripytide/arraylike"
+repository = "https://github.com/ripytide/arraylike"
 license = "MIT"
-keywords = ["data-structures", "map", "data", "library"]
-categories = ["data-structures"]
+keywords = ["const-generic"]
+categories = []
 
 [dependencies]
 
