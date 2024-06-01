@@ -1,6 +1,24 @@
 [package]
 name = "arraylike"
 version = "0.1.0"
+authors = ["James Forster <james.forsterer@gmail.com>"]
 edition = "2021"
+description = """
+This crate provides an ArrayLike trait for using arrays without needing
+const expressions.
+"""
+documentation = "https://docs.rs/arraylike"
+readme = "README.md"
+homepage = "https://github.com/ripytide/nodit"
+repository = "https://github.com/ripytide/nodit"
+license = "MIT"
+keywords = ["data-structures", "map", "data", "library"]
+categories = ["data-structures"]
 
 [dependencies]
+
+[features]
+default = []
+
+[lints.rust]
+missing_docs = "deny"
